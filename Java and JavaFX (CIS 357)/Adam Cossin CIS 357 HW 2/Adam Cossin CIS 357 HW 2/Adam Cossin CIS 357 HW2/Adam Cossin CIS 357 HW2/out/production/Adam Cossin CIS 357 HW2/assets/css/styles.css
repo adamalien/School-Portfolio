@@ -1,0 +1,19 @@
+.root{
+    -fx-background-image: url("../images/background.jpg");
+    -fx-background-size:cover;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size:15px;
+}
+#build{
+    -fx-font-size:25px;
+}
+#btnReset:hover{
+    -fx-cursor:hand;
+}
+#btnReset{
+    -fx-background-color:red;
+    -fx-text-fill:white;
+}
+.label{
+    -fx-font-size:16px;
+}

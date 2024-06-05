@@ -1,0 +1,15 @@
+1. Is your core functionality working?
+YES
+2. Can you correctly identify zones if the user presses close to the border of a zone?
+YES
+3. Can you correctly identify an action within a zone?
+YES
+4. Can you correctly identify the number of single taps (if the user taps very fast)?
+YES
+5. Are you handling the case where a user goes beyond the number of taps, so that the game
+does not hang forever?
+YES
+6. Are your settings being displayed correctly based on past user preference?
+YES
+7. Are your settings being save correctly when the user makes changes?
+YES

@@ -1,0 +1,17 @@
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\bin\Debug\net6.0-windows\clientAppNew.exe
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\bin\Debug\net6.0-windows\clientAppNew.deps.json
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\bin\Debug\net6.0-windows\clientAppNew.runtimeconfig.json
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\bin\Debug\net6.0-windows\clientAppNew.dll
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\bin\Debug\net6.0-windows\clientAppNew.pdb
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.vbproj.AssemblyReference.cache
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.frmClient.resources
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.vbproj.GenerateResource.cache
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.AssemblyInfoInputs.cache
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.AssemblyInfo.vb
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.vbproj.CoreCompileInputs.cache
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.dll
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\refint\clientAppNew.dll
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.pdb
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\clientAppNew.genruntimeconfig.cache
+C:\Users\adama\source\repos\clientAppNew\clientAppNew\obj\Debug\net6.0-windows\ref\clientAppNew.dll

@@ -1,0 +1,203 @@
+<%#Author: Adam Cossin %>
+<%#Description: ejs file for the user's profile page. On the user's profile, shows a hello banner at the top with their name, and a log out button. Then, %>
+<%#also shows the user's username, name, balance, and items owned. Also shows the items the user can/cannot buy with a buy button at the bottom. %>
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/meta') %>
+<body class = thisBody>
+    <%- include('partials/header') %> <br><br>
+    <div style="background-color:beige">
+        <header class = "hello" style = "font-size:25px">Hello, <%=locals.name%></header>
+        <form action="/" method="get">
+            <button class="LogOut">Log out</button>
+        </form>
+    </div><br>
+    <%#div containing the table at the top of the page which displays the user's info %>
+    <div style="padding-left:5%; font-size:20px">
+        <b>At a glance</b><br><br>
+        <table style="width:90%">
+            <tr class = "topRow">
+                <th>Name</th>
+                <th>Username</th>
+                <th>Current Balance</th>
+                <th>Items Owned</th>
+            </tr>
+                <tr class = "bottomRow">
+                    <td><%=locals.name%></td>
+                    <td><%=locals.username%></td>
+                    <td>$<%=locals.balance%></td>
+                    <td><%=locals.items%></td>
+                </tr>
+        </table>
+    </div><br>
+    <div style="padding-left:5%; font-size:15px">
+        <b>Your Items</b><br>
+    </div>
+    <div class="your-cards">
+        <%#for loop that goes through the user's items array and displays the info for each item in a card %>
+        <%for(let i = 0; i < locals.user.items.length; i++){%>
+        <div class="your-card">
+            <div class="card-body">
+                <h5 class="card-title"><%=locals.user.items[i].name%></h5><br>
+                <p class="card-text">Item ID : <%=locals.user.items[i].id%></p><br>
+                <div class="card-footer">
+                    <small class="price">Price: $<%=locals.user.items[i].price%></small>
+                </div>
+            </div>
+        </div>
+        <%}%>
+    </div><br>
+
+    <hr style="width:85%; text-align:center;margin-left:5%">
+
+    <b style="padding-left:5%">Buy an Item</b><br>
+
+    <form action="/buy" method="post">
+        <div class="container">
+        <input type="hidden" id="thisUser" name="thisUser" value=<%=locals.user.user_name%>>
+            <%let bal = user.balance%>
+            <%#outer loop that goes through the users %>
+            <%for(let i = 0; i<locals.users.length; i++){%>
+                <%#inner loop that goes through the current user's items %>
+                <%for(let j = 0; j<locals.users[i].items.length; j++){%>
+                    <%#checks if the current user's username matches the username from the profile, if it does, 'skips' the user so their items aren't in 'buy' section %>
+                    <%if(locals.users[i].user_name===locals.user.user_name){%>
+                        <%continue%>
+                    <%}%>
+                    <%#checks if the current user's balance is less than the price of the item, populates a card, but makes it transparent%>
+                    <%if(bal < locals.users[i].items[j].price){%>
+                        <div class="cards">
+                            <div class="card" style="opacity:0.5">
+                                <input type="radio" id = "id" name ="radBtn" style="float:left"value=<%=locals.users[i].items[j].id%>>
+                                <label for="id"><%locals.users[i].items[j].name%></label>   
+                                <div class = "card-body">
+                                    <h5 class="card-title"><%=locals.users[i].items[j].name%></h5><br>
+                                    <p class="card-text">Item ID : <%=locals.users[i].items[j].id%></p>
+                                    <p class="card-text">Seller : <%=locals.users[i].user_name%></p>
+                                    <div class="card-footer">
+                                        <small class="pr">Price: $<%=locals.users[i].items[j].price%></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <%continue%>
+                    <%}%>
+                    <%#populates the rest of the cards %>
+                        <div class="cards">
+                            <div class="card">
+                                <input type="radio" id = "id" name ="radBtn" style="float:left"value=<%=locals.users[i].items[j].id%>> 
+                                <div class = "card-body">
+                                    <h5 class="card-title"><%=locals.users[i].items[j].name%></h5>
+                                    <p class="card-text">Item ID : <%=locals.users[i].items[j].id%></p>
+                                    <p class="card-text">Seller : <%=locals.users[i].user_name%></p>
+                                    <div class="card-footer">
+                                        <small class="pr">Price: $<%=locals.users[i].items[j].price%></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <%}%>
+            <%}%>
+            <button class="buyNow">Buy Now</button>
+        </div>
+    </form>
+    <%- include('partials/footer') %>
+</body>
+</html>
+<%- include('partials/body') %>
+<%#styling for components %>
+<style>
+    .hello{
+        font-size:25px;
+        text-align:center;
+    }
+    .LogOut{
+        left:48%;
+        background-color:crimson;
+        color:white;
+        cursor:pointer;
+        border-radius:6px;
+        border-style: none;
+        padding: 4px 7px;
+        box-sizing: border-box;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        outline: none;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: baseline;
+    }
+    .topRow{
+        font-size:15px;
+        text-align:left;
+        background-color: rgb(210, 211, 255);
+    }
+    .bottomRow{
+        text-align:left;
+        background-color: rgb(199, 253, 255);
+    }
+    td,th{
+        padding:8px;
+    }
+    .buyNow{
+        background-color:rgb(0, 95, 204);
+        font-size:14px;
+        color:white;
+        cursor:pointer;
+        border-radius:6px;
+        border-style: none;
+        box-sizing: border-box;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 1600px;
+        height: 30px;
+        padding: 4px 7px;
+        margin: 0;
+        outline: none;
+        position: fixed;
+        bottom:40px;
+        left:5%;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: baseline;
+    }
+    .container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left:80px;
+        gap:20px;
+        height:100%;
+    }
+    .cards{
+        width:400px;
+        height:25vh;
+    }
+    .card{
+        background-color:aliceblue;
+        max-width:fit-content;
+        max-height:fit-content;
+    }
+    .card-body{
+        line-height:0.7em;
+        font-size: 0.9em;
+        padding-bottom:0;
+    }
+    .your-cards{
+        margin-left:5%;
+        max-width:1500px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    .your-card{
+        border-radius:3px;
+        background-color:aliceblue;
+        height:fit-content;
+        width:50%;
+        border-width:1px;
+        border-color:black;
+        border-style:solid;
+    }
+</style>

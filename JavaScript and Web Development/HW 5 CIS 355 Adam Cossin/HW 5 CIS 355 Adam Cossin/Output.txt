@@ -1,0 +1,45 @@
+[
+    {
+        "_id": "6261a6e5643ef43a2068ae0e",
+        "name": "Robert Downey Jr.",
+        "user_name": "iamironman",
+        "balance": 145,
+        "password": "$2b$08$51r7DYABwu.xIjBpkWxK0OTvjkvW4JLxVtsfrLrA1s.KNo0MBoAVS",
+        "__v": 0,
+        "items": [
+            {
+                "_id": "6261ae0531d06e0af5eaa0c6",
+                "name": "Vibranium Shield. (Lightly Used.)",
+                "price": 75,
+                "owner": "6261a6e5643ef43a2068ae0e",
+                "__v": 0
+            }
+        ],
+        "id": "6261a6e5643ef43a2068ae0e"
+    },
+    {
+        "_id": "6261ab035ad8afb922636ec1",
+        "name": "Steve Rogers",
+        "user_name": "steve123",
+        "balance": 55,
+        "password": "$2b$08$LFawKjUtyMmAqVoGHQrYXeIc/7F0H3iUAnJg2F/ywuhHLLSWRPqL2",
+        "__v": 0,
+        "items": [
+            {
+                "_id": "6261ae0231d06e0af5eaa0c2",
+                "name": "Mjolnir - The Hammer of the Gods",
+                "price": 95,
+                "owner": "6261ab035ad8afb922636ec1",
+                "__v": 0
+            },
+            {
+                "_id": "6261ae0c31d06e0af5eaa0cd",
+                "name": "Jarvis - A sophisticated AI",
+                "price": 120,
+                "owner": "6261ab035ad8afb922636ec1",
+                "__v": 0
+            }
+        ],
+        "id": "6261ab035ad8afb922636ec1"
+    }
+]

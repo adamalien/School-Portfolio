@@ -1,0 +1,17 @@
+C:\Users\adama\source\repos\ServerApp\ServerApp\bin\Debug\net6.0-windows\ServerApp.exe
+C:\Users\adama\source\repos\ServerApp\ServerApp\bin\Debug\net6.0-windows\ServerApp.deps.json
+C:\Users\adama\source\repos\ServerApp\ServerApp\bin\Debug\net6.0-windows\ServerApp.runtimeconfig.json
+C:\Users\adama\source\repos\ServerApp\ServerApp\bin\Debug\net6.0-windows\ServerApp.dll
+C:\Users\adama\source\repos\ServerApp\ServerApp\bin\Debug\net6.0-windows\ServerApp.pdb
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.vbproj.AssemblyReference.cache
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.frmServer.resources
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.vbproj.GenerateResource.cache
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.AssemblyInfoInputs.cache
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.AssemblyInfo.vb
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.vbproj.CoreCompileInputs.cache
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.dll
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\refint\ServerApp.dll
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.pdb
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ServerApp.genruntimeconfig.cache
+C:\Users\adama\source\repos\ServerApp\ServerApp\obj\Debug\net6.0-windows\ref\ServerApp.dll

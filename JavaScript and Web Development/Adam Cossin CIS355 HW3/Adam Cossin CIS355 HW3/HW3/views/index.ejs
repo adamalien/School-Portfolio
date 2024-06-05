@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    
+</head>
+<body>
+    <form action="/trip" method="GET">
+        <div style="margin:auto; text-align:center">
+            <h1>Welcome to the Trip Planner App!</h1>
+            <p>Where do you want to go?</p>
+            <input type="text" id="location" name="location" size="100" placeholder="Ex. New York NY, Boston MA"><br><br>
+            <input type="submit" value="Make My Trip!" style="border-radius:4px">
+        </div>
+    </form>
+
+    <%function metersToMiles(meters){%>
+        <%let miles = meters/1609%>
+        <%return Math.round(miles *100)/100%>
+    <%}%>
+
+    <%function time(seconds){%>
+        <%let hours = Math.floor(seconds/3600);%>
+        <%let minutes = Math.floor((seconds - (hours*3600))/60);%>
+        <%let secs = Math.round(seconds - (hours*3600) - (minutes*60));%>
+        <%let timeStr;%>
+        <%if (hours===0){%>
+            <%timeStr = "Time: "+ minutes.toString().padStart(2,'0')+" minutes "+secs.toString().padStart(2,'0')+" seconds";%>
+            <%return timeStr%>
+        <%}%>
+        <%timeStr = "Time: " +hours+ " hours "+ minutes.toString().padStart(2,'0')+" minutes "+secs.toString().padStart(2,'0')+" seconds";%>
+        <%return timeStr;%>
+    <%}%>
+
+    <%if(locals.passedObj){%>
+    <div style ="padding-left:400px">
+        <h1>Your Trip Summary</h1>
+        <p>
+        Total Distance: <%=metersToMiles(locals.passedObj.distance)%> miles <br>
+        Total Time: <%=time(locals.passedObj.duration)%><br>
+        </p>
+        <h2>Summary of Stops</h2>
+        <p>
+        <ol>
+            <%for(legs of locals.passedObj.legs){%>
+                <li>Start: <i><%=legs.start.name%></i> <br>
+                    Stop:   <i><%=legs.stop.name%></i> <br>
+                    Distance: <%=metersToMiles(legs.distance)%> miles <br>
+                    Time:   <%=time(legs.duration)%><br>
+                </li><br>
+            <%}%>
+        </ol>
+        </p>
+        <%let lastLeg = locals.passedObj.legs.length-1%>
+        <b>It is currently <%=locals.passedObj.weather.temp%> degrees in <%=locals.passedObj.legs[lastLeg].stop.name%>. It feels like <%=locals.passedObj.weather.real%> degrees.</b>
+    <%}%>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\bin\Debug\net6.0\cis311hw3.exe
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\bin\Debug\net6.0\cis311hw3.deps.json
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\bin\Debug\net6.0\cis311hw3.runtimeconfig.json
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\bin\Debug\net6.0\cis311hw3.dll
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\bin\Debug\net6.0\cis311hw3.pdb
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.vbproj.AssemblyReference.cache
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.AssemblyInfoInputs.cache
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.AssemblyInfo.vb
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.vbproj.CoreCompileInputs.cache
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.dll
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\refint\cis311hw3.dll
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.pdb
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\cis311hw3.genruntimeconfig.cache
+C:\Users\adama\source\repos\cis311hw3\cis311hw3\obj\Debug\net6.0\ref\cis311hw3.dll

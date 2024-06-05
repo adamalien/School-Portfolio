@@ -1,0 +1,18 @@
+Granger, Hermione
+Math 90 86 80 95 100 99 96 93
+Longbottom, Neville
+Physics 88 75 90 78 90 45
+Weasley, George
+History 95 76 85 91
+Krum, Victor
+Math 44 58 23 76 50 59 77 68
+Snape, Severus
+History 40 100 68 88
+Thomas, Dean
+Physics 60 72 78 72 78 79
+Diggory, Cedric
+Physics 80 92 98 92 89 99
+Malfoy, Draco
+Math 74 38 23 16 50 61 51 88
+Weasley, Fred
+History 40 100 68 88
