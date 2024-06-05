@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="window" prefHeight="423.0" prefWidth="307.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.NewBookController">
+   <children>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="35.0" prefWidth="307.0" style="-fx-background-color: orange;" text="Add New Book Record">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="69.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="134.0" text="Publisher" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="199.0" text="Author" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="243.0" text="ISBN" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="287.0" text="Genre" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="334.0" text="Year" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="109.0" layoutY="370.0" mnemonicParsing="false" onAction="#registerBook" style="-fx-background-color: slategrey;" text="Register" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtName" layoutX="106.0" layoutY="66.0" prefHeight="25.0" prefWidth="194.0" />
+      <TextField fx:id="txtAuthor" layoutX="106.0" layoutY="196.0" prefHeight="25.0" prefWidth="194.0" />
+      <TextField fx:id="txtISBN" layoutX="106.0" layoutY="240.0" prefHeight="25.0" prefWidth="194.0" />
+      <TextField fx:id="txtYear" layoutX="106.0" layoutY="331.0" prefHeight="25.0" prefWidth="66.0" />
+      <ListView fx:id="lstPublisher" layoutX="106.0" layoutY="102.0" prefHeight="84.0" prefWidth="194.0" />
+      <ComboBox fx:id="cmbGenre" layoutX="106.0" layoutY="284.0" prefHeight="25.0" prefWidth="194.0" />
+   </children>
+</AnchorPane>

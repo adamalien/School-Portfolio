@@ -1,0 +1,35 @@
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.exe
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.deps.json
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.runtimeconfig.json
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.dll
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.pdb
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.vbproj.AssemblyReference.cache
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.vbproj.GenerateResource.cache
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.AssemblyInfoInputs.cache
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.AssemblyInfo.vb
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.vbproj.CoreCompileInputs.cache
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.dll
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\refint\cis311hw2.dll
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.pdb
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.genruntimeconfig.cache
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\ref\cis311hw2.dll
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.frmCompConfig.resources
+C:\Users\adama\source\repos\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.frmInvoiceDetails.resources
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.exe
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.deps.json
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.runtimeconfig.json
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.dll
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\bin\Debug\net6.0-windows\cis311hw2.pdb
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.frmCompConfig.resources
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.frmInvoiceDetails.resources
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.vbproj.GenerateResource.cache
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.AssemblyInfoInputs.cache
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.AssemblyInfo.vb
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.vbproj.CoreCompileInputs.cache
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.dll
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\refint\cis311hw2.dll
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.pdb
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\cis311hw2.genruntimeconfig.cache
+D:\Class\CIS 311 - VB.Net\Assignment 2\cis311hw2\cis311hw2\cis311hw2\obj\Debug\net6.0-windows\ref\cis311hw2.dll
