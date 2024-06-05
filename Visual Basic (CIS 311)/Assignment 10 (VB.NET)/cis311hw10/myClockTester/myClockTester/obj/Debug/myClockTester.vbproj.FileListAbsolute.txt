@@ -1,0 +1,17 @@
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockTester.exe.config
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockTester.exe
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockTester.pdb
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockTester.xml
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockControl.dll
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockControl.pdb
+C:\Users\adama\source\repos\myClockTester\myClockTester\bin\Debug\myClockControl.xml
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.vbproj.AssemblyReference.cache
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.vbproj.SuggestedBindingRedirects.cache
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.Form1.resources
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.Resources.resources
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.vbproj.GenerateResource.cache
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.vbproj.CoreCompileInputs.cache
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.vbproj.CopyComplete
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.exe
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.xml
+C:\Users\adama\source\repos\myClockTester\myClockTester\obj\Debug\myClockTester.pdb

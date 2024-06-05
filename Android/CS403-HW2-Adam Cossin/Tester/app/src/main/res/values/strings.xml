@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hangman App</string>
+    <string name="start_text">_ _ _ _</string>
+    <string name="go_button">GO!</string>
+    <string name="hint">Guess a letter...</string>
+    <string name="new_game_button">NEW GAME</string>
+    <string name="guess_history">Guess History: </string>
+    <string name="top_label">The Hangman App</string>
+</resources>
